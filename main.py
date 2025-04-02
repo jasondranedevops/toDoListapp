@@ -1,5 +1,5 @@
 while True:
-    user_action = input("Type new or add, show or display, edit, complete or done or exit or 'close: ").strip()
+    user_action = input("Type new or add, show or display, edit, complete or done or exit or close: ").strip()
 
     # Check for valid user input
     valid_actions = ['new', 'add', 'display', 'show', 'done', 'edit', 'complete', 'exit', 'close']
@@ -9,9 +9,9 @@ while True:
             todos = file.readlines()
 
         if len(user_action) > 4:
-            todo = user_action[4:] + "\n"
+            todo = user_action[4:]
             with open('data/todos.txt', 'w') as file:
-                todos.append(todo)
+                todos.append(todo  + "\n")
                 file.writelines(todos)
         else:
             todo = input("Enter a todo: ") + "\n"
@@ -28,20 +28,17 @@ while True:
             print(f"{index + 1}.{item}")
 
     elif user_action.startswith("edit"):
-        if len(user_action) > 5:
-            number = int(user_action[5:]) -1
-            new_todo = input("Enter new todo item: ")
-            todos[number] = new_todo
-            with open('data/todos.txt', 'w') as file:
-                file.writelines(todos)
+        with open('data/todos.txt', 'r') as file:
+            todos = file.readlines()
+        for index, item in enumerate(todos):
+            item = item.strip('\n').title()
+            print(f"{index + 1}.{item}")
+        number = int(input("Number of todo to edit: "))
+        number = number - 1
+        if number <= 0 or number > len(todos):
+            print("Invalid number. Please try again.")
+            continue
         else:
-            with open('data/todos.txt', 'r') as file:
-                todos = file.readlines()
-            for index, item in enumerate(todos):
-                item = item.strip('\n').title()
-                print(f"{index + 1}.{item}")
-            number = int(input("Number of todo to edit: "))
-            number = number - 1
             new_todo = input("Enter new todo item: ")
             todos[number] = new_todo
             with open('data/todos.txt', 'w') as file:
@@ -54,10 +51,14 @@ while True:
             item = item.strip('\n').title()
             print(f"{index + 1}.{item}")
         number = int(input("Number of todo to complete: "))
-        print(f"{todos[number-1]} was removed from the list.")
-        todos.pop(number - 1)
-        with open('data/todos.txt', 'w') as file:
-            file.writelines(todos)
+        if number <= len(todos):
+            print(f"{todos[number - 1]} was removed from the list.")
+            todos.pop(number - 1)
+            with open('data/todos.txt', 'w') as file:
+                file.writelines(todos)
+        else:
+            print("Invalid number. Please try again.")
+            continue
 
     elif user_action.startswith("exit") or user_action.startswith("close"):
         break

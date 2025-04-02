@@ -5,5 +5,4 @@ play
 fix
 coffee
 Dog Food
-Buy sports Car
-add a new member
+buy red sports car
