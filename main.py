@@ -19,8 +19,6 @@ while True:
                 todos.append(todo)
                 file.writelines(todos)
 
-
-
     elif "show" in user_action or "display" in user_action:
         with open('data/todos.txt', 'r') as file:
             todos = file.readlines()
@@ -30,17 +28,24 @@ while True:
             print(f"{index + 1}.{item}")
 
     elif "edit" in user_action:
-        with open('data/todos.txt', 'r') as file:
-            todos = file.readlines()
-        for index, item in enumerate(todos):
-            item = item.strip('\n').title()
-            print(f"{index + 1}.{item}")
-        number = int(input("Number of todo to edit: "))
-        number = number - 1
-        new_todo = input("Enter new todo item: ")
-        todos[number] = new_todo
-        with open('data/todos.txt', 'w') as file:
-            file.writelines(todos)
+        if len(user_action) > 5:
+            number = int(user_action[5:]) -1
+            new_todo = input("Enter new todo item: ")
+            todos[number] = new_todo
+            with open('data/todos.txt', 'w') as file:
+                file.writelines(todos)
+        else:
+            with open('data/todos.txt', 'r') as file:
+                todos = file.readlines()
+            for index, item in enumerate(todos):
+                item = item.strip('\n').title()
+                print(f"{index + 1}.{item}")
+            number = int(input("Number of todo to edit: "))
+            number = number - 1
+            new_todo = input("Enter new todo item: ")
+            todos[number] = new_todo
+            with open('data/todos.txt', 'w') as file:
+                file.writelines(todos)
 
     elif "complete" in user_action:
         with open('data/todos.txt', 'r') as file:
