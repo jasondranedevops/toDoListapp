@@ -1,5 +1,4 @@
-clean
-throw
+throw away trash
 buy
 play
 fix
@@ -7,3 +6,7 @@ coffee
 Dog Food
 Buy sports Car
 add a new member
+clean old car
+help me
+answer phone
+hangup
