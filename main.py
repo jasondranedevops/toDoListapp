@@ -5,12 +5,21 @@ while True:
     valid_actions = ['add', 'show', 'edit', 'complete', 'exit']
 
     if "add" in user_action:
-        todo = user_action[4:] + "\n"
         with open('data/todos.txt', 'r') as file:
             todos = file.readlines()
-        with open('data/todos.txt', 'w') as file:
-            todos.append(todo)
-            file.writelines(todos)
+
+        if len(user_action) > 4:
+            todo = user_action[4:] + "\n"
+            with open('data/todos.txt', 'w') as file:
+                todos.append(todo)
+                file.writelines(todos)
+        else:
+            todo = input("Enter a todo: ") + "\n"
+            with open('data/todos.txt', 'w') as file:
+                todos.append(todo)
+                file.writelines(todos)
+
+
 
     elif "show" in user_action or "display" in user_action:
         with open('data/todos.txt', 'r') as file:
