@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="812d8391-b16c-4780-9422-67f7901453f8" name="Changes" comment="fixed error handling added helpful printouts" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;jasondranedevops&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/jasondranedevops/toDoListapp&quot;,
+    &quot;accountId&quot;: &quot;ae25d72d-f578-4ae9-b4e5-1bad545d7f5e&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2ulkRSnPosBlaujKWU32xpZOT6U" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exercise.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/execises" />
+      <recent name="$PROJECT_DIR$/data" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PY-243.26053.29" />
+        <option value="bundled-python-sdk-b1dbf8ef85a6-4df51de95216-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.26053.29" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="812d8391-b16c-4780-9422-67f7901453f8" name="Changes" comment="" />
+      <created>1742830539694</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1742830539694</updated>
+      <workItem from="1742830540797" duration="492000" />
+      <workItem from="1742831038814" duration="2509000" />
+      <workItem from="1742835268488" duration="2574000" />
+      <workItem from="1743080880377" duration="1482000" />
+      <workItem from="1743427716696" duration="19148000" />
+      <workItem from="1743604167946" duration="13543000" />
+    </task>
+    <task id="LOCAL-00001" summary="inital upload">
+      <option name="closed" value="true" />
+      <created>1743598371695</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1743598371695</updated>
+    </task>
+    <task id="LOCAL-00002" summary="inital upload">
+      <option name="closed" value="true" />
+      <created>1743598583480</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1743598583480</updated>
+    </task>
+    <task id="LOCAL-00003" summary="updated file functions to use with">
+      <option name="closed" value="true" />
+      <created>1743600516083</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1743600516083</updated>
+    </task>
+    <task id="LOCAL-00004" summary="remove space">
+      <option name="closed" value="true" />
+      <created>1743600799261</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1743600799261</updated>
+    </task>
+    <task id="LOCAL-00005" summary="replaced match case with if statments to allow add fuction to include added item">
+      <option name="closed" value="true" />
+      <created>1743605714639</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1743605714639</updated>
+    </task>
+    <task id="LOCAL-00006" summary="adding add to include or not include task">
+      <option name="closed" value="true" />
+      <created>1743606428644</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1743606428644</updated>
+    </task>
+    <task id="LOCAL-00007" summary="udated edit function to allow number entry at onset">
+      <option name="closed" value="true" />
+      <created>1743607363209</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1743607363209</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added options to entries">
+      <option name="closed" value="true" />
+      <created>1743608181224</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1743608181224</updated>
+    </task>
+    <task id="LOCAL-00009" summary="removed change option for now ;)">
+      <option name="closed" value="true" />
+      <created>1743608353513</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1743608353513</updated>
+    </task>
+    <task id="LOCAL-00010" summary="updated if statements for startswith in of str check">
+      <option name="closed" value="true" />
+      <created>1743615524074</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1743615524074</updated>
+    </task>
+    <task id="LOCAL-00011" summary="error handng for edit feature">
+      <option name="closed" value="true" />
+      <created>1743619345939</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1743619345939</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fixed error handling added helpful printouts">
+      <option name="closed" value="true" />
+      <created>1743628487229</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1743628487229</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="inital upload" />
+    <MESSAGE value="inital commit" />
+    <MESSAGE value="inital commit" />
+    <MESSAGE value="updated file functions to use with" />
+    <MESSAGE value="remove space" />
+    <MESSAGE value="replaced match case with if statments to allow add fuction to include added item" />
+    <MESSAGE value="adding add to include or not include task" />
+    <MESSAGE value="udated edit function to allow number entry at onset" />
+    <MESSAGE value="added options to entries" />
+    <MESSAGE value="removed change option for now ;)" />
+    <MESSAGE value="updated if statements for startswith in of str check" />
+    <MESSAGE value="error handng for edit feature" />
+    <MESSAGE value="fixed error handling added helpful printouts" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed error handling added helpful printouts" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/toDoListapp$app.coverage" NAME="app Coverage Results" MODIFIED="1742831049145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/toDoListapp$main.coverage" NAME="main Coverage Results" MODIFIED="1743628424998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/toDoListapp$exercise.coverage" NAME="exercise Coverage Results" MODIFIED="1743524344799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
