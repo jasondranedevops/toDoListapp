@@ -6,4 +6,4 @@ fix
 coffee
 Dog Food
 Buy sports Car
-win lottery
+add a new member

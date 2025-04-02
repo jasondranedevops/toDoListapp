@@ -4,7 +4,7 @@ while True:
     # Check for valid user input
     valid_actions = ['new', 'add', 'display', 'show', 'done', 'edit', 'complete', 'exit', 'close']
 
-    if "add" in user_action or "new" in user_action:
+    if user_action.startswith("add") or user_action.startswith("new"):
         with open('data/todos.txt', 'r') as file:
             todos = file.readlines()
 
@@ -19,7 +19,7 @@ while True:
                 todos.append(todo)
                 file.writelines(todos)
 
-    elif "show" in user_action or "display" in user_action:
+    elif user_action.startswith("show") or user_action.startswith("display"):
         with open('data/todos.txt', 'r') as file:
             todos = file.readlines()
 
@@ -27,7 +27,7 @@ while True:
         for index, item in enumerate(current_todos):
             print(f"{index + 1}.{item}")
 
-    elif "edit" in user_action:
+    elif user_action.startswith("edit"):
         if len(user_action) > 5:
             number = int(user_action[5:]) -1
             new_todo = input("Enter new todo item: ")
@@ -47,7 +47,7 @@ while True:
             with open('data/todos.txt', 'w') as file:
                 file.writelines(todos)
 
-    elif "complete" in user_action or "done" in user_action:
+    elif user_action.startswith("complete") or user_action.startswith("done"):
         with open('data/todos.txt', 'r') as file:
             todos = file.readlines()
         for index, item in enumerate(todos):
@@ -59,7 +59,7 @@ while True:
         with open('data/todos.txt', 'w') as file:
             file.writelines(todos)
 
-    elif "exit" in user_action or "close" in user_action:
+    elif user_action.startswith("exit") or user_action.startswith("close"):
         break
 
     else:
