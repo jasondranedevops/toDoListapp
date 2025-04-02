@@ -1,0 +1,7 @@
+clean
+throw
+buy
+play
+fix
+coffee
+Dog Food
