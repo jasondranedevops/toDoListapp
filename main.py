@@ -68,7 +68,7 @@ while True:
             with open('data/todos.txt', 'w') as file:
                 file.writelines(todos)
         except IndexError:
-            print(f"To Do list does not contain and item numbered {number}. Try again")
+            print(f"To Do list does not contain an item numbered {number}. Try again")
             continue
 
     elif user_action.startswith("exit") or user_action.startswith("close"):
