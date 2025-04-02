@@ -1,8 +1,8 @@
 while True:
-    user_action = input("Type new or add, show or display, edit or change, complete or done or exit or 'close: ").strip()
+    user_action = input("Type new or add, show or display, edit, complete or done or exit or 'close: ").strip()
 
     # Check for valid user input
-    valid_actions = ['new', 'add', 'display', 'show', 'done', 'edit', 'change', 'complete', 'exit', 'close']
+    valid_actions = ['new', 'add', 'display', 'show', 'done', 'edit', 'complete', 'exit', 'close']
 
     if "add" in user_action or "new" in user_action:
         with open('data/todos.txt', 'r') as file:
@@ -27,7 +27,7 @@ while True:
         for index, item in enumerate(current_todos):
             print(f"{index + 1}.{item}")
 
-    elif "edit" in user_action or "change" in user_action:
+    elif "edit" in user_action:
         if len(user_action) > 5:
             number = int(user_action[5:]) -1
             new_todo = input("Enter new todo item: ")
@@ -63,6 +63,6 @@ while True:
         break
 
     else:
-        print("Please use only type new or add, show or display, edit or change, complete or done or exit or close: ")
+        print("Please use only type new or add, show or display, edit, complete or done or exit or close: ")
 
 print("See you soon!")
