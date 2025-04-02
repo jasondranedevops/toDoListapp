@@ -10,7 +10,6 @@ while True:
                 todos.append(todo)
                 file.writelines(todos)
 
-
         case "show" | "display":
             with open('data/todos.txt', 'r') as file:
                 todos = file.readlines()
@@ -32,7 +31,6 @@ while True:
             todos[number] = new_todo
             with open('data/todos.txt', 'w') as file:
                 file.writelines(todos)
-
 
         case "complete":
             with open('data/todos.txt', 'r') as file:
