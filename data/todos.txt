@@ -8,5 +8,3 @@ Buy sports Car
 add a new member
 clean old car
 help me
-answer phone
-hangup
